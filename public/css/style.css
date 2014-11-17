@@ -1,0 +1,54 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  color: #999; }
+
+.welcome {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+}
+a, a:visited {
+  color: #FF5949;
+  text-decoration: none; 
+cursor: pointer;}
+
+a:hover {
+  text-decoration: underline; }
+
+ul li {
+  display: block;
+  list-style-image: none;
+  margin: 0 1.2em; }
+
+p {
+  margin: 2em 0;
+  color: #555; }
+table {
+  min-width: 500px;
+}
+table tr {
+  margin: 0 auto;
+}
+.animate-leave { 
+    -webkit-transition: 250ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 250ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 250ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 250ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 250ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    position: relative;
+    display: block;
+} 
+.animate-enter {
+    -webkit-transform: skewX(95deg) skewY(5deg);
+    -moz-transform: skewX(95deg) skewY(5deg);
+    -ms-transform: skewX(95deg) skewY(5deg);
+    -o-transform: skewX(95deg) skewY(5deg);
+    transform: skewX(95deg) skewY(5deg);
+    opacity: 0;
+    height: 0px;
+}      
